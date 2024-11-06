@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f2f5;
+    padding: 20px;
+    background-image: url(https://wallpapers.com/images/hd/4k-call-of-duty-modern-warfare-background-3840-x-2160-3qfhjctg66v195cx.jpg);
+    
+}
+
+#title {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 0.5em;
+}
+
+#description {
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+#survey-form {
+    background-color: #98a0b9;
+    padding: 2em;
+    border-radius: 8px;
+    max-width: 500px;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+form label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 1em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 80px;
+}
+
+#submit {
+    background-color: #565f57;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1em;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+#submit:hover {
+    background-color: #4f584f;
+}
+
+p {
+    margin-bottom: 0.5em;
+}
